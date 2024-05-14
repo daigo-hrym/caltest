@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>四則演算計算機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div class="input-group">
+            <input type="text" class="input-box" placeholder="値を入力">
+            <select class="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="text" class="input-box" placeholder="値を入力">
+            <span class="equal">=</span>
+            <span class="result">?</span>
+        </div>
+        <button onclick="addInputGroup()">追加</button>
+        <button onclick="calculate()">計算</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

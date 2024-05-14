@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#calculator {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.operator {
+    margin-right: 10px;
+}
+
+.equal {
+    margin-right: 10px;
+}
+
+.result {
+    margin-left: 10px;
+    font-weight: bold;
+}
